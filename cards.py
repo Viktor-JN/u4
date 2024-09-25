@@ -42,7 +42,6 @@ class Deck:
         
     def shuffle_deck(self):
         shuffle(self.cards)
-        print(self.cards)
 
     def show_deck(self):
         for card in self.cards:
